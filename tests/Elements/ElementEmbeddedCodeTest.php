@@ -13,11 +13,16 @@ use SilverStripe\Forms\FieldList;
 class ElementEmbeddedCodeTest extends SapphireTest
 {
     /**
+     * @var string
+     */
+    protected static $fixture_file = '../fixtures.yml';
+
+    /**
      *
      */
     public function testGetCMSFields()
     {
-        $object = Injector::inst()->create(ElementEmbeddedCode::class);
+        $object = $this->objFromFixture(ElementEmbeddedCode::class, 'one');
         $fields = $object->getCMSFields();
         $this->assertInstanceOf(FieldList::class, $fields);
     }
@@ -27,7 +32,7 @@ class ElementEmbeddedCodeTest extends SapphireTest
      */
     public function testGetType()
     {
-        $object = Injector::inst()->create(ElementEmbeddedCode::class);
+        $object = $this->objFromFixture(ElementEmbeddedCode::class, 'one');
         $this->assertEquals($object->getType(), 'Embedded Code');
     }
 }
