@@ -1,0 +1,41 @@
+{
+    "name": "dynamic/silverstripe-elemental-embedded-code",
+    "description": "A block to embed code like iFrames or Javascript on a page.",
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "http://www.dynamicagency.com"
+        }
+    ],
+    "keywords": [
+        "silverstripe", "elemental", "content", "blocks", "embedded", "iframe", "javascript"
+    ],
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "require": {
+        "dnadesign/silverstripe-elemental": "^2@dev",
+        "silverstripe/recipe-cms": "^1.0@dev",
+        "silverstripe/vendor-plugin": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\Embedded\\": "src/",
+            "Dynamic\\Elements\\Embedded\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
