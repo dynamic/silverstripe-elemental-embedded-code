@@ -26,6 +26,15 @@ A block to embed code like iFrames or Javascript on a page
 
 Adds a block to display embeddable code on a page. Useful for iFrames or Javascript embeds, like MailChimp sign up forms.
 
+## Screen Shots
+
+#### Front End sample of an Embed Code Element
+![Front End sample of an Embed Code Element](./readme-images/embed-block-sample.jpg)
+
+#### CMS - Embed Code Element Main Tab
+![CMS - Embed Code Element Main Tab](./readme-images/embed-block-cms.jpg)
+
+
 ## Getting more elements
 
 See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#getting-more-elements)
