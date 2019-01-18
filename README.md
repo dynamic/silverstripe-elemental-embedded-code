@@ -15,8 +15,8 @@ A block to embed code like iFrames or Javascript on a page
 
 ## Requirements
 
-* SilverStripe ^4.0
-* SilverStripe Elemental ^2.0
+* silverstripe/recipe-cms: ^1@dev || ^4@dev
+* dnadesign/silverstripe-elemental: ^2@dev || ^3@dev
 
 ## Installation
 
