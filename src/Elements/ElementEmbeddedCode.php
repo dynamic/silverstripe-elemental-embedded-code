@@ -60,4 +60,23 @@ class ElementEmbeddedCode extends BaseElement
     {
         return _t(__CLASS__.'.BlockType', 'Embedded Code');
     }
+
+    /**
+     * @return DBHTMLText
+     */
+    public function getSummary()
+    {
+        return DBField::create_field('HTMLText', $this->Code)->Summary(20);
+    }
+
+    /**
+     * @return array
+     */
+    protected function provideBlockSchema()
+    {
+        $blockSchema = parent::provideBlockSchema();
+        $blockSchema['content'] = $this->getSummary();
+        return $blockSchema;
+    }
+
 }
