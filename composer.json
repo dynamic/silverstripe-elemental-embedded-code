@@ -1,6 +1,6 @@
 {
     "name": "dynamic/silverstripe-elemental-embedded-code",
-    "description": "A block to embed code like iFrames or Javascript on a page.",
+    "description": "Embed code like iFrames or Javascript on a page.",
     "authors": [
         {
             "name": "Dynamic",

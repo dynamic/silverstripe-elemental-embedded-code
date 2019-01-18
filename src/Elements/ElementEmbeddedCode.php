@@ -5,6 +5,7 @@ namespace Dynamic\Elements\Embedded\Elements;
 use DNADesign\Elemental\Models\BaseElement;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextareaField;
+use SilverStripe\ORM\FieldType\DBField;
 
 /**
  * Class ElementEmbededCode.
@@ -25,6 +26,8 @@ class ElementEmbeddedCode extends BaseElement
      * @var string
      */
     private static $plural_name = 'Embedded Code Elements';
+
+    private static $description = 'Embed code like iFrames or Javascript on a page.';
 
     /**
      * @var array
@@ -78,5 +81,4 @@ class ElementEmbeddedCode extends BaseElement
         $blockSchema['content'] = $this->getSummary();
         return $blockSchema;
     }
-
 }
