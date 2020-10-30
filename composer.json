@@ -15,11 +15,17 @@
     "license": "BSD-3-Clause",
     "require": {
         "dnadesign/silverstripe-elemental": "^4.0",
+        "silverstripe/recipe-cms": "^4.4",
         "silverstripe/vendor-plugin": "^1.0"
     },
     "require-dev": {
+        "pdepend/pdepend": "^2.5",
+        "phploc/phploc": "^4.0",
+        "phpmd/phpmd": "^2.6",
         "phpunit/phpunit": "^5.7",
-        "squizlabs/php_codesniffer": "*"
+        "sebastian/phpcpd": "^3.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "theseer/phpdox": "^0.11"
     },
     "config": {
         "process-timeout": 600
