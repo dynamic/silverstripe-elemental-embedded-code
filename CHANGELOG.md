@@ -1,4 +1,10 @@
 # Change Log
+## [2.1.0](https://github.com/dynamic/silverstripe-elemental-embedded-code/tree/2.1.0) (2021-07-15)
+## What's Changed
+* REFACTOR PHP 8 PHPUnit 9 support by @jsirish in https://github.com/dynamic/silverstripe-elemental-embedded-code/pull/10
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-embedded-code/compare/2.0.2...2.1.0
 
 ## [2.0.2](https://github.com/dynamic/silverstripe-elemental-embedded-code/tree/2.0.2) (2019-03-20)
 [Full Changelog](https://github.com/dynamic/silverstripe-elemental-embedded-code/compare/2.0.1...2.0.2)
