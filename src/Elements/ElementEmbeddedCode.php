@@ -33,6 +33,7 @@ class ElementEmbeddedCode extends BaseElement
      * @var array
      */
     private static $db = [
+        'Content' => 'HTMLText',
         'Code' => 'HTMLText',
     ];
 
