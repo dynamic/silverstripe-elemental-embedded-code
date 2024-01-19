@@ -43,6 +43,13 @@ See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?
 
 ## Configuration
 
+To hide the Content field:
+
+```yml
+Dynamic\Elements\Embedded\Elements\ElementEmbeddedCode:
+    hide_content_field: true
+```
+
 See [SilverStripe Elemental Configuration](https://github.com/silverstripe/silverstripe-elemental#configuration)
 
 ## Translations
