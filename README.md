@@ -2,8 +2,7 @@
 
 A block to embed code like iFrames or Javascript on a page
 
-[![CI](https://github.com/dynamic/silverstripe-elemental-embedded-code/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-embedded-code/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-embedded-code/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-embedded-code)
+[![CI](https://github.com/dynamic/silverstripe-elemental-embedded-code/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-embedded-code/actions/workflows/ci.yml) [![Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ff69b4?logo=github)](https://github.com/sponsors/dynamic)
 
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-embedded-code/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-embedded-code)
