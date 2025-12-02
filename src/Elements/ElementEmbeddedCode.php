@@ -20,12 +20,12 @@ class ElementEmbeddedCode extends BaseElement
     /**
      * @var string
      */
-    private static $singular_name = 'Embedded Code Element';
+    private static $singular_name = 'Embedded Code';
 
     /**
      * @var string
      */
-    private static $plural_name = 'Embedded Code Elements';
+    private static $plural_name = 'Embedded Code Blocks';
 
     private static $description = 'Embed code like iFrames or Javascript on a page.';
 
@@ -55,14 +55,6 @@ class ElementEmbeddedCode extends BaseElement
         );
 
         return $fields;
-    }
-
-    /**
-     * @return string
-     */
-    public function getType()
-    {
-        return _t(__CLASS__.'.BlockType', 'Embedded Code');
     }
 
     /**
