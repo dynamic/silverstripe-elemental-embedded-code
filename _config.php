@@ -1,4 +1,3 @@
 <?php
 
-define('SILVERSTRIPE_ELEMENTAL-EMBEDDED-CODE_PATH', __DIR__);
-define('SILVERSTRIPE_ELEMENTAL-EMBEDDED-CODE_DIR', basename(__DIR__));
+// no-op

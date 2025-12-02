@@ -26,11 +26,12 @@
         }
     ],
     "require": {
-        "dnadesign/silverstripe-elemental": "^5",
-        "silverstripe/framework": "^5"
+        "dnadesign/silverstripe-elemental": "^6",
+        "silverstripe/framework": "^6",
+        "silverstripe/vendor-plugin": "^3"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^3"
+        "silverstripe/recipe-testing": "^4"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -45,7 +46,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.x-dev"
+            "dev-master": "4.x-dev"
         }
     },
     "scripts": {
