@@ -54,6 +54,10 @@ class ElementEmbeddedCode extends BaseElement
                 ->setTitle('Embed Code')
         );
 
+        if (ElementEmbeddedCode::config()->get('hide_content_field')) {
+            $fields->removeByName('Content');
+        }
+
         return $fields;
     }
 
