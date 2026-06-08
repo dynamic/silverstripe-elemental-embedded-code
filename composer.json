@@ -37,8 +37,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Dynamic\\Elements\\Embedded\\": "src/",
-            "Dynamic\\Elements\\Embedded\\Tests\\": "tests/"
+            "Dynamic\Elements\Embedded\": "src/",
+            "Dynamic\Elements\Embedded\Tests\": "tests/"
         }
     },
     "config": {
@@ -46,7 +46,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.x-dev"
+            "dev-4": "4.x-dev"
         }
     },
     "scripts": {
