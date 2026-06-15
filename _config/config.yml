@@ -1,3 +1,5 @@
 ---
 Name: silverstripeelemental-embedded-codeconfig
 ---
+Dynamic\Elements\Embedded\Elements\ElementEmbeddedCode:
+  hide_content_field: false
