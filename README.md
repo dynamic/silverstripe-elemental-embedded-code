@@ -50,12 +50,6 @@ Dynamic\Elements\Embedded\Elements\ElementEmbeddedCode:
 
 See [SilverStripe Elemental Configuration](https://github.com/dnadesign/silverstripe-elemental#configuration)
 
-## Translations
-
-The translations for this project are managed via [Transifex](https://www.transifex.com/dynamicagency/silverstripe-elemental-embedded-code/)
-and are updated automatically during the release process. To contribute, please head to the link above and get
-translating!
-
 ## Maintainers
 
  *  [Dynamic](https://www.dynamicagency.com) (<dev@dynamicagency.com>)
