@@ -31,6 +31,8 @@
         "silverstripe/vendor-plugin": "^3"
     },
     "require-dev": {
+        "cambis/silverstan": "^2.1",
+        "phpstan/extension-installer": "^1.4",
         "silverstripe/recipe-testing": "^4"
     },
     "minimum-stability": "dev",
@@ -42,6 +44,12 @@
         }
     },
     "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true,
+            "phpstan/extension-installer": true
+        },
         "process-timeout": 600
     },
     "extra": {
