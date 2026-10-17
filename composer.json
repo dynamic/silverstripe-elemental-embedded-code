@@ -26,6 +26,7 @@
         }
     ],
     "require": {
+        "php": "^8.3",
         "dnadesign/silverstripe-elemental": "^6",
         "silverstripe/framework": "^6",
         "silverstripe/vendor-plugin": "^3"
